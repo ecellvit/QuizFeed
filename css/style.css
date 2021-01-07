@@ -65,7 +65,7 @@ form {
     font-size: 2.9rem;
 }
 
-.content .input-div {
+.content .space {
     position: relative;
     display: grid;
     grid-template-columns: 7% 93%;
@@ -74,7 +74,7 @@ form {
     border-bottom: 2px solid #d9d9d9;
 }
 
-.content .input-div.one {
+.content .space.one {
     margin-top: 0;
 }
 
@@ -89,12 +89,12 @@ form {
     transition: .3s;
 }
 
-.input-div>div {
+.space>div {
     position: relative;
     height: 45px;
 }
 
-.input-div>div>h5 {
+.space>div>h5 {
     position: absolute;
     left: 10px;
     top: 50%;
@@ -104,8 +104,8 @@ form {
     transition: .3s;
 }
 
-.input-div:before,
-.input-div:after {
+.space:before,
+.space:after {
     content: '';
     position: absolute;
     bottom: -2px;
@@ -115,29 +115,29 @@ form {
     transition: .4s;
 }
 
-.input-div:before {
+.space:before {
     right: 50%;
 }
 
-.input-div:after {
+.space:after {
     left: 50%;
 }
 
-.input-div.focus:before,
-.input-div.focus:after {
+.space.focus:before,
+.space.focus:after {
     width: 50%;
 }
 
-.input-div.focus>div>h5 {
+.space.focus>div>h5 {
     top: -5px;
     font-size: 15px;
 }
 
-.input-div.focus>.i>i {
+.space.focus>.i>i {
     color: #2f2fa2;
 }
 
-.input-div>div>input {
+.space>div>input {
     position: absolute;
     left: 0;
     top: 0;
@@ -152,7 +152,7 @@ form {
     font-family: 'poppins', sans-serif;
 }
 
-.input-div.pass {
+.space.pass {
     margin-bottom: 4px;
 }
 
